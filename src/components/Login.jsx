@@ -209,7 +209,7 @@ const Login = () => {
 
     try {
       const response = await fetch(
-        `${process.env.VITE_BACKEND_URL}/api/auth/login`,
+        `${import.meta.env.VITE_BACKEND_URL}}/api/auth/login`,
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
