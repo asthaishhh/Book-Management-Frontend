@@ -36,7 +36,7 @@
 
 //     try {
 //       const response = await fetch(
-//         `${process.env.BACKEND_URL}api/auth/login",
+//         `${process.env.VITE_BACKEND_URL}api/auth/login",
 //         {
 //           method: "POST",
 //           headers: { "Content-Type": "application/json" },
@@ -209,7 +209,7 @@ const Login = () => {
 
     try {
       const response = await fetch(
-        `${process.env.BACKEND_URL}api/auth/login`,
+        `${process.env.VITE_BACKEND_URL}/api/auth/login`,
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
