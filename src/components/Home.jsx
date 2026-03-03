@@ -8,7 +8,7 @@ import { Plus, Funnel, Sparkles, BookOpen } from "lucide-react";
 /* ================= AXIOS INSTANCE ================= */
 
 const api = axios.create({
-  baseURL: `${import.meta.env.VITE_BACKEND_URL}}/book`,
+  baseURL: `${import.meta.env.VITE_BACKEND_URL}/book`,
 });
 
 api.interceptors.request.use((config) => {
